@@ -17,7 +17,7 @@
   }
 ```
 
-> ## vue组件属性和组件引用采用中划线的方式，枚举变量 使用 Pascal 命名法
+> ## vue组件属性和组件引用采用中划线的方式，枚举变量 使用 Pascal 命名法 
 
 ```javascript
   <label-content :value="auto_query_condition" label-width="120px" :inline="true" :border="true" label-position="left" label-item-width="400px" all-background="#fbfdff"></label-content>
