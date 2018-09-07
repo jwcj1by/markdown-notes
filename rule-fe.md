@@ -1,6 +1,7 @@
 # 前端开发规范
 
 > ## vue 命名约束
+
 - 常量采用全部大写，单词间下划线分隔的命名方式
 - 变量采用驼峰命名法
 - 全局属性或者引入文件采用$驼峰命名法进行命名
@@ -26,6 +27,7 @@
       components: {'audio-gallery': AudioGallery} // 组件引用采用中划线
   }
 ```
+
 > ## 选项顺序
 
 ```javascript
@@ -164,42 +166,43 @@ import CustomUnit from './config/unit.js' // 枚举变量
 常用后缀:
 
 ```javascript
-_id-标记id
-_form-表单
-_name-标记_id对应的结果/名称
-_photo-标记图片
-_pdf-PDF文件
-_video-视频
-_audio-音频
-_excel-表格
-_number-数字
-_date-日期
-_info-信息
-_rate-概率
-_serialnum-编号/_NO-编号
-_abel-是否可以Boolean
-_remarks-备注
-_result-结果
-_loading-加载
-_alert-弹框
-_assign-赋值
-_reset-重置
-_able-允许
-_state-状态
-_confirm-确认
-_dialog-对话框
-_msg-通知
-_succ-成功
-_err-错误
-_failure-失败
-_clear-清除
-_lists-列表
-_file-文件
-_infor-信息
-_rate-概率
+_id - 标记id
+_form - 表单
+_name - 标记_id对应的结果 / 名称
+_photo - 标记图片
+_pdf - PDF文件
+_video - 视频
+_audio - 音频
+_excel - 表格
+_number - 数字
+_date - 日期
+_info - 信息
+_rate - 概率
+_serialnum - 编号 / _NO - 编号
+_abel - 是否可以Boolean
+_remarks - 备注
+_result - 结果
+_loading - 加载
+_alert - 弹框
+_assign - 赋值
+_reset - 重置
+_able - 允许
+_state - 状态
+_confirm - 确认
+_dialog - 对话框
+_msg - 通知
+_succ - 成功
+_err - 错误
+_failure - 失败
+_clear - 清除
+_lists - 列表
+_file - 文件
+_infor - 信息
+_rate - 概率
 ```
 
 常用前缀:
+
 ```javascript
 is_: 是、可以/否、不可以Boolean
 show_: 显示/隐藏Boolean
@@ -233,7 +236,6 @@ into_: 输入
 intro_: 到...中
 all_: 全部
 ```
-
 
 ```HTML
 <pre>
